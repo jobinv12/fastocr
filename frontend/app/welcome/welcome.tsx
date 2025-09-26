@@ -1,5 +1,6 @@
 import { DisplayExtractedText } from "~/components/displayExtractedText";
 import { FileUploader } from "~/components/fileuploader";
+import { GetStarted } from "~/components/get-started";
 import { LangSelect } from "~/components/langSelect";
 import { TitleText } from "~/components/titleText";
 
@@ -10,6 +11,7 @@ export function Welcome() {
       <LangSelect />
       <FileUploader />
       <DisplayExtractedText />
+      <GetStarted />
     </main>
   );
 }
